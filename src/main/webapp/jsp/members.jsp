@@ -3,7 +3,7 @@
 <%@page import="hello.servlet.domain.member.MemberRepository"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <%
 	MemberRepository memberRepository = MemberRepository.getInstance();
 	List<Member> members = memberRepository.findAll();
